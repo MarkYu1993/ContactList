@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042698D027D1B4A4000222ED /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042698CF27D1B4A4000222ED /* ContactTableViewCell.swift */; };
+		042698D227D1B5E8000222ED /* ContactScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042698D127D1B5E8000222ED /* ContactScreenViewModel.swift */; };
+		042698D427D1B760000222ED /* ContactScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042698D327D1B760000222ED /* ContactScreenTableViewController.swift */; };
 		04DBE9BB27D098C500241CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBE9BA27D098C500241CFA /* AppDelegate.swift */; };
 		04DBE9BD27D098C500241CFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBE9BC27D098C500241CFA /* SceneDelegate.swift */; };
-		04DBE9BF27D098C500241CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBE9BE27D098C500241CFA /* ViewController.swift */; };
+		04DBE9BF27D098C500241CFA /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBE9BE27D098C500241CFA /* NewContactViewController.swift */; };
 		04DBE9C227D098C500241CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DBE9C027D098C500241CFA /* Main.storyboard */; };
 		04DBE9C427D098CA00241CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DBE9C327D098CA00241CFA /* Assets.xcassets */; };
 		04DBE9C727D098CA00241CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DBE9C527D098CA00241CFA /* LaunchScreen.storyboard */; };
+		04DBE9D027D0990400241CFA /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 04DBE9CF27D0990400241CFA /* SQLite */; };
+		04DBE9D327D09C6600241CFA /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBE9D227D09C6600241CFA /* UIImageView.swift */; };
+		04DBE9D527D09D3200241CFA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBE9D427D09D3200241CFA /* UIViewController.swift */; };
+		04DBE9D827D09DD500241CFA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBE9D727D09DD500241CFA /* Contact.swift */; };
+		04DBE9DB27D09E1A00241CFA /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBE9DA27D09E1A00241CFA /* SQLiteDatabase.swift */; };
+		04DBE9DD27D09F2100241CFA /* SQLiteCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBE9DC27D09F2100241CFA /* SQLiteCommands.swift */; };
+		04DBE9E027D0A9FD00241CFA /* NewContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBE9DF27D0A9FD00241CFA /* NewContactViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042698CF27D1B4A4000222ED /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		042698D127D1B5E8000222ED /* ContactScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactScreenViewModel.swift; sourceTree = "<group>"; };
+		042698D327D1B760000222ED /* ContactScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactScreenTableViewController.swift; sourceTree = "<group>"; };
 		04DBE9B727D098C500241CFA /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DBE9BA27D098C500241CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04DBE9BC27D098C500241CFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04DBE9BE27D098C500241CFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04DBE9BE27D098C500241CFA /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
 		04DBE9C127D098C500241CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04DBE9C327D098CA00241CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DBE9C627D098CA00241CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DBE9C827D098CA00241CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DBE9D227D09C6600241CFA /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		04DBE9D427D09D3200241CFA /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		04DBE9D727D09DD500241CFA /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		04DBE9DA27D09E1A00241CFA /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		04DBE9DC27D09F2100241CFA /* SQLiteCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteCommands.swift; sourceTree = "<group>"; };
+		04DBE9DF27D0A9FD00241CFA /* NewContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +50,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DBE9D027D0990400241CFA /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042698CD27D1B433000222ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04DBE9C027D098C500241CFA /* Main.storyboard */,
+				042698CF27D1B4A4000222ED /* ContactTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042698CE27D1B446000222ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04DBE9BE27D098C500241CFA /* NewContactViewController.swift */,
+				042698D327D1B760000222ED /* ContactScreenTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		04DBE9AE27D098C500241CFA = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +94,54 @@
 		04DBE9B927D098C500241CFA /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
+				04DBE9D627D09DC900241CFA /* Model */,
+				042698CD27D1B433000222ED /* View */,
+				04DBE9DE27D0A9E100241CFA /* ViewModels */,
+				042698CE27D1B446000222ED /* Controller */,
+				04DBE9D927D09E0000241CFA /* SQLiteDatasource */,
+				04DBE9D127D09C4C00241CFA /* Extensions */,
 				04DBE9BA27D098C500241CFA /* AppDelegate.swift */,
 				04DBE9BC27D098C500241CFA /* SceneDelegate.swift */,
-				04DBE9BE27D098C500241CFA /* ViewController.swift */,
-				04DBE9C027D098C500241CFA /* Main.storyboard */,
 				04DBE9C327D098CA00241CFA /* Assets.xcassets */,
 				04DBE9C527D098CA00241CFA /* LaunchScreen.storyboard */,
 				04DBE9C827D098CA00241CFA /* Info.plist */,
 			);
 			path = ContactList;
+			sourceTree = "<group>";
+		};
+		04DBE9D127D09C4C00241CFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04DBE9D227D09C6600241CFA /* UIImageView.swift */,
+				04DBE9D427D09D3200241CFA /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04DBE9D627D09DC900241CFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04DBE9D727D09DD500241CFA /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04DBE9D927D09E0000241CFA /* SQLiteDatasource */ = {
+			isa = PBXGroup;
+			children = (
+				04DBE9DA27D09E1A00241CFA /* SQLiteDatabase.swift */,
+				04DBE9DC27D09F2100241CFA /* SQLiteCommands.swift */,
+			);
+			path = SQLiteDatasource;
+			sourceTree = "<group>";
+		};
+		04DBE9DE27D0A9E100241CFA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04DBE9DF27D0A9FD00241CFA /* NewContactViewModel.swift */,
+				042698D127D1B5E8000222ED /* ContactScreenViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +160,9 @@
 			dependencies = (
 			);
 			name = ContactList;
+			packageProductDependencies = (
+				04DBE9CF27D0990400241CFA /* SQLite */,
+			);
 			productName = ContactList;
 			productReference = 04DBE9B727D098C500241CFA /* ContactList.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +191,9 @@
 				Base,
 			);
 			mainGroup = 04DBE9AE27D098C500241CFA;
+			packageReferences = (
+				04DBE9CE27D0990400241CFA /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
 			productRefGroup = 04DBE9B827D098C500241CFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +221,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DBE9BF27D098C500241CFA /* ViewController.swift in Sources */,
+				042698D427D1B760000222ED /* ContactScreenTableViewController.swift in Sources */,
+				04DBE9E027D0A9FD00241CFA /* NewContactViewModel.swift in Sources */,
+				042698D227D1B5E8000222ED /* ContactScreenViewModel.swift in Sources */,
+				04DBE9D827D09DD500241CFA /* Contact.swift in Sources */,
+				04DBE9D327D09C6600241CFA /* UIImageView.swift in Sources */,
+				04DBE9BF27D098C500241CFA /* NewContactViewController.swift in Sources */,
+				04DBE9DD27D09F2100241CFA /* SQLiteCommands.swift in Sources */,
 				04DBE9BB27D098C500241CFA /* AppDelegate.swift in Sources */,
+				042698D027D1B4A4000222ED /* ContactTableViewCell.swift in Sources */,
 				04DBE9BD27D098C500241CFA /* SceneDelegate.swift in Sources */,
+				04DBE9D527D09D3200241CFA /* UIViewController.swift in Sources */,
+				04DBE9DB27D09E1A00241CFA /* SQLiteDatabase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +384,8 @@
 				DEVELOPMENT_TEAM = BW2HHJDSS8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ContactList/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "相簿使用權限";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo使用權限2";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +414,8 @@
 				DEVELOPMENT_TEAM = BW2HHJDSS8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ContactList/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "相簿使用權限";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo使用權限2";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -360,6 +456,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04DBE9CE27D0990400241CFA /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04DBE9CF27D0990400241CFA /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04DBE9CE27D0990400241CFA /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04DBE9AF27D098C500241CFA /* Project object */;
 }
